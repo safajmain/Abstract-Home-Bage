@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <body>
+
+<!---------------header---------------------------->
+<script>
+  /**    js for menu   */
+  function toggleDropdown() {
+    const dropdown = document.getElementById("myDropdown");
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+}
+document.getElementById('search-icon').addEventListener('click', function() {
+    const searchInput = document.getElementById('search-input');
+           
+     if (searchInput.style.display === "none" || searchInput.style.display === "") {
+        searchInput.style.display = "inline";  
+        searchInput.focus();  
+        } else {
+        searchInput.style.display = "none";  
+            }
+        });
+
+
+</script>
+<header class="hed">
+  <div class="imgandlogo">
+      <img src="9056902_abstract_icon (1).png" alt="Logo">
+      <a href="https://www.goabstract.com"><h3>abstract</h3></a>
+      <a href="/hc/en-us"><h3>| help center</h3></a>
+  </div>
+
+<div class="btn">  
+          <button class="subre">Submit a request </button>
+ <button class="siin"> Sign in </button>
+</div>
+
+
+        <div class="menuandsearch">
+
+            <i class='bx bx-search' id="search-icon"></i> 
+             <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown()">&#9776;</button>
+    <div class="dropdown-content" id="myDropdown">
+    <span class="closebtn" onclick="toggleDropdown()">&#10006;</span>
+    <a href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-S
+    upport">Submit a request</a>
+       <hr>
+    <a href="https://goabstract.zendesk.com/auth/v2/login/signin?return_to=
+    https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&theme=hc&locale=en-us&brand
+     _id=360000024632Aauth_origin=360000024632%2Ctrue%2Ctrue">Sign in</a>
+         </div>
+         </div>
+        </div>
+
+</header>
+<!------------------------------------------->
+<div class="how-can-we-help">
+  <h1>How can we help?</h1>
+  <div class="textbox"> 
+      <input type="text" placeholder="Search" class="textsearch">
+      <i class='bx bx-right-arrow-alt'></i>
+  </div>
+</div>
+
+ </body>
+ </html>
