@@ -193,12 +193,13 @@ hr {
   .imgandlogo {
     width: 60%;  
     height: 50px;  
+    margin-left: 20px;
   }
 
   .menuandsearch {
     width: 20%;  
     height: 50px; 
-    margin-right: 10px;  
+    margin-right: 20px;  
   }
 
   .imgandlogo img {
@@ -208,8 +209,10 @@ hr {
   }
 
   .imgandlogo a, .imgandlogo h3 {
-    font-size: 0.9rem; 
+    font-size: .9rem; 
     margin-left: 3px;  
+    font-weight: bold;
+    font-size:  medium;
   }
 
   .dropbtn {
@@ -449,7 +452,7 @@ h4{ font-size: 1.3rem;
   justify-content: space-between; 
   gap: 2px; 
   padding: 0 50px;  
-  background-color: #333;
+  background-color: #000000;
   color: white;
 }
 
