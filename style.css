@@ -245,9 +245,10 @@ hr {
 }
 
 .textbox {
+  border-radius: 3px;
   position: relative;  
   background-color:white;
-  border: 2px solid #000000;
+  border: 1.2px solid #161515b3;
   margin: auto;
   height: 39px;
   width: 40%;
